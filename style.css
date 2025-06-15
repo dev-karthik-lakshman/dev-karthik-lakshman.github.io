@@ -5,7 +5,7 @@
 
 :root {
     --bg-color: #1a1a1a; /* Very dark background */
-    --text-color: #e0e0e0; /* Light grey text */
+    --text-color: #ffffff; /* Light grey text */
     --accent-color: #00ffaa; /* Bright green for accents (like a terminal cursor) */
     --link-color: #61dafb; /* Cyan for links */
     --hover-color: #333333; /* Slightly lighter dark for hover states */
@@ -30,7 +30,7 @@ body {
 }
 
 .container {
-    max-width: 1200px; /* Wider container */
+    max-width: 1300px; /* Wider container */
     margin: 0 auto;
     padding: 20px;
 }
