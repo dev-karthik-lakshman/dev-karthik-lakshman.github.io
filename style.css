@@ -221,7 +221,7 @@ section {
 
 .research-item img {
     width: 100%;
-    max-width: 350px; /* Control image width */
+    max-width: 150px; /* Control image width */
     height: auto;
     object-fit: cover;
     border-radius: 5px;
