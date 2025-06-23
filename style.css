@@ -8,7 +8,7 @@
     --text-color: #ffffff; /* Light grey text */
     --accent-color: #00ffaa; /* Bright green for accents (like a terminal cursor) */
     --link-color: #61dafb; /* Cyan for links */
-    --hover-color: #333333; /* Slightly lighter dark for hover states */
+    --hover-color: #1a1a1a; /* #333333 Slightly lighter dark for hover states */
     --border-color: #333333; /* Darker border/divider color */
     --button-bg: #007bff; /* Button background */
     --button-hover-bg: #0056b3; /* Button hover */
@@ -25,8 +25,9 @@ body {
     color: var(--text-color);
     margin: 0;
     padding: 0;
-    line-height: 1.7;
-    font-size: 1em;
+    line-height: 1.1;
+    font-size: 0.7em;
+    text-align: justify;
 }
 
 .container {
@@ -92,7 +93,7 @@ nav {
 
 .cover-photo {
     width: 100%;
-    max-height: 350px; /* Adjust height as needed */
+    max-height: 370px; /* Adjust height as needed */
     overflow: hidden; /* Ensures image doesn't overflow container */
     margin-bottom: 25px;
     border-radius: 8px;
@@ -145,8 +146,8 @@ nav {
 }
 
 .contact-info {
-    font-size: 0.9em;
-    line-height: 1.4;
+    font-size: 0.7em;
+    line-height: 1.1;
     color: #b0b0b0;
 }
 
@@ -333,7 +334,7 @@ footer {
     .research-item {
         flex-direction: column !important; /* Force stacking for all research items */
         align-items: center; /* Center content when stacked */
-        text-align: center;
+        text-align: justify;
     }
 
     .research-item img {
@@ -342,6 +343,6 @@ footer {
     }
 
     .research-item-content {
-        text-align: left; /* Reset text align for content within item */
+        text-align: justify; /* Reset text align for content within item */
     }
 }
