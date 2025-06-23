@@ -6,18 +6,18 @@
 :root {
     --bg-color: #1a1a1a; /* Very dark background */
     --text-color: #ffffff; /* Light grey text */
-    --accent-color: #00ffaa; /* Bright green for accents (like a terminal cursor) */
-    --link-color: #61dafb; /* Cyan for links */
+    --accent-color: #FFD700; /* Bright green for accents (like a terminal cursor) */
+    --link-color: #FFD700; /* Cyan for links */
     --hover-color: #1a1a1a; /* #333333 Slightly lighter dark for hover states */
-    --border-color: #333333; /* Darker border/divider color */
-    --button-bg: #007bff; /* Button background */
-    --button-hover-bg: #0056b3; /* Button hover */
+    --border-color: #1a1a1a; /* Darker border/divider color */
+    --button-bg: #FFD700 ; /*#007bff Button background */
+    --button-hover-bg:#FFD700; /*#0056b3 Button hover */
     --card-bg: #1a1a1a; /* Background for cards/sections */
 }
 
 /* Base Styles */
 body {
-    font-family: 'Courier New', monospace; /* Default terminal font */
+    font-family: Verdana, sans-serif;  /* 'Courier New', monospace; Default terminal font */
     /* If you imported a Google Font, you can use it here: */
     /* font-family: 'Fira Code', 'Courier New', monospace; */
     /* font-family: 'JetBrains Mono', 'Courier New', monospace; */
@@ -26,8 +26,8 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.1;
-    font-size: 0.9em;
-    text-align: justify;
+    font-size: 1em;
+    text-align: left;
 }
 
 .container {
@@ -44,9 +44,9 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.2;
 }
 
-h1 { font-size: 2.5em; }
-h2 { font-size: 2em; }
-h3 { font-size: 1.6em; }
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.2em; }
 
 /* Links */
 a {
@@ -334,7 +334,7 @@ footer {
     .research-item {
         flex-direction: column !important; /* Force stacking for all research items */
         align-items: center; /* Center content when stacked */
-        text-align: justify;
+        text-align:left;
     }
 
     .research-item img {
@@ -343,6 +343,6 @@ footer {
     }
 
     .research-item-content {
-        text-align: justify; /* Reset text align for content within item */
+        text-align: left; /* Reset text align for content within item */
     }
 }
