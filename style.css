@@ -12,7 +12,7 @@
     --border-color: #333333; /* Darker border/divider color */
     --button-bg: #007bff; /* Button background */
     --button-hover-bg: #0056b3; /* Button hover */
-    --card-bg: #2d2d2d; /* Background for cards/sections */
+    --card-bg: #1a1a1a; /* Background for cards/sections */
 }
 
 /* Base Styles */
@@ -26,7 +26,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.1;
-    font-size: 0.7em;
+    font-size: 0.9em;
     text-align: justify;
 }
 
