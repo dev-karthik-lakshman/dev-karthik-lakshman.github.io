@@ -6,18 +6,18 @@
 :root {
     --bg-color: #1a1a1a; /* Very dark background */
     --text-color: #ffffff; /* Light grey text */
-    --accent-color: #FFD700; /* Bright green for accents (like a terminal cursor) */
-    --link-color: #FFD700; /* Cyan for links */
+    --accent-color: #D4AF37; /* Bright green for accents (like a terminal cursor) */
+    --link-color: #D4AF37; /* Cyan for links */
     --hover-color: #1a1a1a; /* #333333 Slightly lighter dark for hover states */
     --border-color: #1a1a1a; /* Darker border/divider color */
-    --button-bg: #FFD700 ; /*#007bff Button background */
-    --button-hover-bg:#FFD700; /*#0056b3 Button hover */
+    --button-bg: #D4AF37; /*#007bff Button background */
+    --button-hover-bg:#D4AF37; /*#0056b3 Button hover */
     --card-bg: #1a1a1a; /* Background for cards/sections */
 }
 
 /* Base Styles */
 body {
-    font-family: Verdana, sans-serif;  /* 'Courier New', monospace; Default terminal font */
+    font-family: Arial, sans-serif;  /* 'Courier New', monospace; Default terminal font */
     /* If you imported a Google Font, you can use it here: */
     /* font-family: 'Fira Code', 'Courier New', monospace; */
     /* font-family: 'JetBrains Mono', 'Courier New', monospace; */
@@ -25,7 +25,7 @@ body {
     color: var(--text-color);
     margin: 0;
     padding: 0;
-    line-height: 1.1;
+    line-height: 1.0;
     font-size: 1em;
     text-align: left;
 }
@@ -128,7 +128,7 @@ nav {
     height: 180px;
     border-radius: 50%;
     object-fit: cover;
-    border: 4px solid var(--accent-color); /* Accent border around photo */
+   /* border: 4px solid var(--accent-color); /* Accent border around photo */
     margin-bottom: 15px;
     box-shadow: 0 0 15px rgba(0, 255, 170, 0.5); /* Glowing effect */
 }
