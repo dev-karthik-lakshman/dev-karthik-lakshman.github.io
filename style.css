@@ -74,7 +74,7 @@ nav {
 }
 
 .nav-item {
-    font-size: 1.1em;
+    font-size: 1.0em;
     padding: 8px 15px;
     border-radius: 5px;
     transition: background-color 0.3s ease;
@@ -92,7 +92,7 @@ nav {
 
 .cover-photo {
     width: 100%;
-    max-height: 450px; /* Adjust height as needed */
+    max-height: 350px; /* Adjust height as needed */
     overflow: hidden; /* Ensures image doesn't overflow container */
     margin-bottom: 25px;
     border-radius: 8px;
